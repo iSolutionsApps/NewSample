@@ -23,9 +23,9 @@ static CGFloat color=1;
    
     UISwipeGestureRecognizer *swipeGesture=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeLeft:)];
     
-    [swipeGesture setDirection:UISwipeGestureRecognizerDirectionDown];
+    [swipeGesture setDirection:UISwipeGestureRecognizerDirectionUp];
     
-    [swipeGesture setNumberOfTouchesRequired:3];
+    [swipeGesture setNumberOfTouchesRequired:1];
    
     [self.view addGestureRecognizer:swipeGesture];
     
