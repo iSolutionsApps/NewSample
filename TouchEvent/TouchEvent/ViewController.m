@@ -29,7 +29,6 @@ static CGFloat color=1;
    
     [self.view addGestureRecognizer:swipeGesture];
     
-  
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
